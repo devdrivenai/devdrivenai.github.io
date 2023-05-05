@@ -1,6 +1,62 @@
 {
-   "baseURL": "http://example.org/",
-   "languageCode": "es-es",
+   "baseURL": "https://devdrivenai.github.io/",
    "title": "devdriven",
-   "theme": "PaperMod"
+   "theme": "PaperMod",
+   "params":
+   {
+      "ShowBreadCrumbs": true,
+      "enableEmoji": true,
+      "ShowReadingTime": true,
+      "socialIcons": [
+         {
+            "name": "twitter",
+            "url": "https://twitter.com/devdrivenai"
+         },
+         {
+            "name": "github",
+            "url": "https://github.com/devdrivenai"
+         }
+      ]
+   },
+   "languages":
+   {
+      "en": {
+         "languageName": "English",
+         "weight": 1,
+         "taxonomies": {
+            "category": "categories",
+            "tag": "tags"
+         },
+         "profileMode": {
+            "enabled": true,
+            "subtitle": "Hi! I am Nico, aka devdrivenai, welcome to my blog",
+            "imageUrl": "https://avatars.githubusercontent.com/u/52556938?s=400&u=17893bda4d5aa24be59d3b562e74c15188ccf580&v=4",            
+            "buttons": [
+               {
+                  "name": "Blog",
+                  "url": "posts"
+               }
+            ]
+         }
+      },
+      "es": {
+         "languageName": "Español",
+         "weight": 2,
+         "taxonomies": {
+            "category": "categorías",
+            "tag": "etiquetas"
+         },
+         "profileMode": {
+            "enabled": true,
+            "subtitle": "¡Hola! Soy Nico, aka devdrivenai, ¡bienvenid@ a mi blog!",
+            "imageUrl": "https://avatars.githubusercontent.com/u/52556938?s=400&u=17893bda4d5aa24be59d3b562e74c15188ccf580&v=4",
+            "buttons": [
+               {
+                  "name": "Blog",
+                  "url": "posts"
+               }
+            ]
+         }
+      }
+   }
 }
