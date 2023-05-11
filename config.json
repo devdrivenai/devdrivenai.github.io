@@ -2,11 +2,14 @@
    "baseURL": "https://devdrivenai.github.io/",
    "title": "devdriven",
    "theme": "PaperMod",
+   "enableEmoji": true,
    "params":
    {
+      "showToc": true,
       "ShowBreadCrumbs": true,
       "enableEmoji": true,
       "ShowReadingTime": true,
+      "showCodeCopyButtons": true,
       "socialIcons": [
          {
             "name": "twitter",
