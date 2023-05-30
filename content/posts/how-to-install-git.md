@@ -1,7 +1,7 @@
 ---
 title: "How to Install Git"
 date: 2023-05-30
-draft: true
+draft: false
 author: devdrivenai
 description: About how to install and connect Git and GitHub on Windows and Ubuntu
 categories: ['how-to', 'installation']
