@@ -12,10 +12,6 @@
       "showCodeCopyButtons": true,
       "socialIcons": [
          {
-            "name": "twitter",
-            "url": "https://twitter.com/devdrivenai"
-         },
-         {
             "name": "github",
             "url": "https://github.com/devdrivenai"
          }
